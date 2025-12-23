@@ -1,0 +1,13 @@
+name: Scrape scheduler
+
+description: Add on-demand + periodic scraping integration (APScheduler / cron / GitHub Actions)
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: How often to run updates and which store to update
+labels:
+  - enhancement
+  - ops
