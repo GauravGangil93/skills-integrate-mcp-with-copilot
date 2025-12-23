@@ -1,0 +1,11 @@
+name: Event scraping
+description: Create an event-scraping endpoint and utilities
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the scraping sources, rate limits and output schema
+labels:
+  - enhancement
+  - backend
