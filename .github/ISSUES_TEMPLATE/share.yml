@@ -1,0 +1,13 @@
+name: Sharing / export
+
+description: Add an endpoint to export event details as shareable image or payload
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Which export approach to use (server-side render / JSON payload)
+labels:
+  - enhancement
+  - api
