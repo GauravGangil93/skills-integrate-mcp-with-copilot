@@ -1,0 +1,12 @@
+name: Event detail parsing
+description: Add utilities to parse event pages for banner, agenda and long descriptions
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide sample URLs / HTML fixtures to parse
+labels:
+  - enhancement
+  - tooling
+  - tests
