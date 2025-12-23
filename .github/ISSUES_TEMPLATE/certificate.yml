@@ -1,0 +1,12 @@
+name: Certificate verification
+description: Implement certificate lookup and verification endpoint
+body:
+  - type: input
+    id: code
+    attributes:
+      label: Certificate code
+      description: The code to verify
+labels:
+  - enhancement
+  - backend
+  - security
