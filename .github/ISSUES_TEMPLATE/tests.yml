@@ -1,0 +1,12 @@
+name: Parsing tests
+
+description: Add tests for scraping and parsing utilities
+
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Test notes
+      description: Which parsers and sample fixtures to include
+labels:
+  - tests
