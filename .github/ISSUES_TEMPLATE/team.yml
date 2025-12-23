@@ -1,0 +1,11 @@
+name: Team (Firebase)
+description: Add Firebase-backed team endpoints
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide Firebase path(s) and sample data structure
+labels:
+  - backend
+  - integration
